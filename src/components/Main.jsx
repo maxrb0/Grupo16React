@@ -1,22 +1,29 @@
 import DetallesLigas from "./DetallesLigas";
+// import ItemGeneral from "./ItemGeneral";
 import LastProduct from "./LastProduct";
 import TotalLigas from "./TotalLigas";
 import TotalProducts from "./TotalProducts";
 import TotalUsarios from "./TotalUsers";
+import LastUser from "./LastUser";
 
 function Main() {
   return (
-    <>
-      <main className="container-main">
+    <main className="grid-layout">
+      <div className="panels">
+        {/* <ItemGeneral name="Usuarios" numero={10}/>
+        <ItemGeneral name="Ligas" numero={5}/>
+        <ItemGeneral name="Productos" numero={50}/> */}
+
         <TotalUsarios />
         <TotalLigas />
         <TotalProducts />
-      </main>
-      <div className="container-detalle-last">
-        <DetallesLigas />
-        <LastProduct />
       </div>
-    </>
+      <div className="container-detalle-last">
+        <LastProduct />
+        <DetallesLigas />
+        <LastUser />
+      </div>
+    </main>
   );
 }
 

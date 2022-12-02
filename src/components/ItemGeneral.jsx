@@ -1,8 +1,10 @@
+import CalculoApi from "./CalculoApi";
+
 function ItemGeneral(props){
     return(
-        <div>
+        <div className="item-panel">
             <h1>Total de {props.name}</h1>
-            <p>{props.numero}</p>
+            <CalculoApi value={1} />
         </div>
     );
 }

@@ -8,7 +8,7 @@ class TotalUsarios extends Component{
 
     render(){
         return(
-            <div className="item-main">
+            <div className="item-panel">
                 <h1>Total de Usarios</h1>
                 <p>10</p>
             </div>

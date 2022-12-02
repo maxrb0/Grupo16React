@@ -8,7 +8,7 @@ class TotalProducts extends Component {
 
   render() {
     return (
-      <div className="item-main">
+      <div className="item-panel">
         <h1>Total de Productos</h1>
         <div className="total-products">
           <p>5</p>

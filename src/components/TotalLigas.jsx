@@ -10,7 +10,7 @@ class TotalLigas extends Component{
 
     render(){
         return(
-            <div className="item-main">
+            <div className="item-panel">
                 <h1>Total de Ligas</h1>
                 <p>20</p>
             </div>
